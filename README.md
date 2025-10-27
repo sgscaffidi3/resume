@@ -60,7 +60,7 @@
 *Senior Systems Software Engineer | Nov 2011–Jan 2016*
 * **Led the successful migration** of the ARM Cortex M3 codebase to support the advanced Cortex M4 processor, resulting in **performance improvements and significant cost savings** per year (C / BSP).
 * Led a team of 4+ software engineers in the successful on-time launch of the Centro product for the company anniversary.
-* Developed fault-tolerant firmware update scheme for programming $\mu$C flash, **improving product reliability** (Bare-metal / C).
+* Developed fault-tolerant firmware update scheme for programming microcontroller flash, **improving product reliability** (Bare-metal / C).
 
 **MCCI CORPORATION** | Austin, TX
 *Software Test Engineer | Mar 2008–Nov 2011*
@@ -69,7 +69,7 @@
 * Managed Microsoft Premier Partner Account, coordinating global test effort to ensure interoperability of beta software.
 
 **SOUTHERNTIER NEWS COMPANY** | Ithaca, NY
-*Clerk (Manager in Training) - *Reframed for Transferable Skills* | Jul 2002–Jul 2007*
+*Clerk (Manager in Training) | Jul 2002–Jul 2007*
 * **Demonstrated strong work ethic and trustworthiness** by routinely handling, reporting, and depositing thousands of dollars of cash daily.
 * Exercised **management and leadership responsibility** by training and supervising subordinate employees and reporting directly to the Director of Operations.
 * **Implemented a Video Surveillance System** that successfully identified covert cases of theft from long-standing regular customers, protecting company assets.
