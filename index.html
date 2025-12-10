@@ -3,275 +3,365 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Greg Scaffidi - Senior Embedded Software Engineer</title>
+    <title>Greg Scaffidi - Tailored Resume Portfolio</title>
     <style>
-        /* Base Styles for Mobile-First (Responsive Design) */
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            margin: 0;
-            padding: 10px;
-            color: #333;
-            line-height: 1.6;
-            background-color: #f4f4f4; /* Light gray background */
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background-color: #ffffff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        h1 {
-            color: #1e3a8a; /* Deep blue for title */
-            border-bottom: 2px solid #1e3a8a;
-            padding-bottom: 5px;
-            margin-top: 0;
-        }
-        h2 {
-            color: #1e3a8a;
-            font-size: 1.3em;
-            margin-top: 20px;
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 5px;
-        }
-        h3 {
-            font-size: 1.1em;
-            margin-bottom: 5px;
-            margin-top: 15px;
-            color: #333;
-            font-weight: 600;
-        }
-        .contact-info {
-            font-size: 0.9em;
-            margin-bottom: 15px;
-        }
-        .contact-info a {
-            color: #1e3a8a;
-            text-decoration: none;
-        }
-        .summary p {
-            font-size: 1em;
-            margin-top: 5px;
-            padding-left: 0;
-        }
-        ul {
-            list-style-type: disc;
-            padding-left: 20px;
-            margin-top: 5px;
-            margin-bottom: 10px;
-        }
-        li {
-            margin-bottom: 5px;
-            text-align: justify;
-        }
-        .job-title {
-            font-weight: bold;
-            display: block;
-            margin-top: 10px;
-        }
-        .job-details {
-            display: flex;
-            justify-content: space-between;
-            font-size: 0.95em;
-            margin-bottom: 5px;
-        }
-        .company-dates {
-            font-style: italic;
-        }
-        .skills-list {
-            list-style-type: none;
-            padding: 0;
-            margin-top: 5px;
-        }
-        .skills-list li {
-            display: inline-block;
-            margin-right: 15px;
-            margin-bottom: 5px;
-            background-color: #e0f7fa; /* Light cyan background for skills */
-            padding: 2px 8px;
-            border-radius: 3px;
-            font-size: 0.9em;
-        }
-        .skills-category {
-            font-weight: bold;
-            color: #1e3a8a;
-            margin-right: 5px;
-        }
-        .education-item {
-            margin-bottom: 10px;
-        }
-        
-        /* Media Query for Larger Screens (Desktops/Tablets) */
-        @media (min-width: 600px) {
-            .skills-list li {
-                margin-right: 20px;
-            }
-        }
+        body { font-family: 'Arial', sans-serif; line-height: 1.6; margin: 20px; background-color: #f4f4f9; color: #333; }
+        header { text-align: center; padding: 20px; background-color: #004d99; color: white; margin-bottom: 30px; border-radius: 8px; }
+        h1, h2, h3 { color: #004d99; }
+        section { padding: 20px; margin-bottom: 30px; background-color: white; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .toc-list { list-style: none; padding: 0; text-align: center; }
+        .toc-list li { display: inline; margin: 0 15px; }
+        .toc-list li a { text-decoration: none; color: #004d99; font-weight: bold; }
+        .resume-header { border-bottom: 2px solid #ccc; padding-bottom: 10px; margin-bottom: 20px; }
+        .resume-header h2 { margin: 0; color: #333; }
+        .contact-info { font-size: 0.9em; margin-bottom: 15px; }
+        .experience table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        .experience th, .experience td { padding: 8px 0; text-align: left; vertical-align: top; }
+        .experience th { width: 25%; font-weight: bold; color: #004d99; }
+        .summary-box { border: 1px solid #ccc; padding: 15px; margin-top: 15px; background-color: #f9f9ff; border-radius: 4px; }
     </style>
 </head>
 <body>
 
-<div class="container">
+<header>
+    <h1>Greg Scaffidi - Tailored Resume Portfolio</h1>
+    <p>20+ Years Embedded Software Engineering and Leadership</p>
+</header>
 
-    <header>
-        <h1>GREG SCAFFIDI</h1>
-        <div class="contact-info">
-            (512) 766-3736 |
-            <a href="mailto:sgscaffidi3@gmail.com">sgscaffidi3@gmail.com</a> |
-            Austin, TX |
-            <a href="https://linkedin.com/in/sgscaffidi3" target="_blank">linkedin.com/in/sgscaffidi3</a>
-        </div>
-    </header>
+<section id="toc">
+    <h2>Table of Contents: Resume Versions</h2>
+    <ul class="toc-list">
+        <li><a href="#summary">1-Page Summary</a></li>
+        <li><a href="#manager-startup">Manager (Startup)</a></li>
+        <li><a href="#manager-established">Manager (Established)</a></li>
+        <li><a href="#architect-startup">Architect (Startup)</a></li>
+        <li><a href="#architect-established">Architect (Established)</a></li>
+        <li><a href="#principal-startup">Principal (Startup)</a></li>
+        <li><a href="#principal-established">Principal (Established)</a></li>
+    </ul>
+</section>
 
-    <h2>CAREER SUMMARY</h2>
-    <div class="summary">
-        <p><strong>Sr Embedded Software Engineer</strong></p>
-        <p>
-            20+ year Embedded Software Engineer and <strong>Technical Leader</strong> specializing in architecting, developing, and optimizing firmware 
-            for a breadth of <strong>ARM Cortex</strong> processors (M0-A75) and custom embedded systems involving <strong>FPGAs and DSPs</strong>. Proven ability 
-            to deliver high-performance solutions using <strong>C, Python, and Embedded Linux/Yocto</strong>, with a track record of <strong>reviving struggling programs</strong>, 
-            leading cross-functional teams, and driving significant <strong>cost savings</strong> and product reliability improvements. 
-            Expertise in FPGA-Firmware integration and PS/PL boundaries.
-        </p>
+<section id="summary">
+    <div class="resume-header">
+        <a href="#toc">Back to Top</a>
+        <h2>1. 1-Page Summary Resume (High-Level Overview)</h2>
+    </div>
+    
+    <h3>GREG SCAFFIDI</h3>
+    <div class="contact-info">
+        (512) 766-3736 | sgscaffidi3@gmail.com | Austin, TX | linkedin.com/in/sgscaffidi3
     </div>
 
-    <h2>TECHNICAL SKILLS</h2>
-    <ul class="skills-list">
-        <li><span class="skills-category">Languages:</span> C, Python, Assembly, C++, JSON, Bash</li>
-        <li><span class="skills-category">OS/Environments:</span> Embedded Linux, Yocto, RTOS, Bare-Metal Firmware, Android, Windows</li>
-        <li><span class="skills-category">Hardware/Protocols:</span> ARM Cortex Processors, DSP, USB, BLE, SPI, I2C, GPIO, RS232, RS485</li>
-        <li><span class="skills-category">Development/Processes:</span> Device Drivers, Kernel Components, Root-Cause Analysis, TDD, Code Review, Refactoring, Bring-up, Defect Resolution, Unit Tests</li>
+    <h3>EXECUTIVE SUMMARY</h3>
+    <div class="summary-box">
+    20+ year Embedded Software Engineer and Technical Leader specializing in architecting, developing, and optimizing firmware
+ for ARM Cortex, DSP, and custom embedded systems. Expertise includes Embedded Linux, Yocto, RTOS, chip bring-up, and leading high-stakes programs across the semiconductor, high-performance infrastructure, and consumer electronics domains. Proven ability to drive significant cost savings and enable new product lines by linking technical strategy to business outcomes.
+    </div>
+
+    <h3>TECHNICAL CORE</h3>
+    <p><strong>Languages:</strong> C, Python, Assembly, C++, Bash</p>
+    <p><strong>Domains:</strong> Embedded Linux, Yocto, RTOS, Bare-Metal Firmware, FPGA-Firmware integration, PS/PL boundaries, DSP, USB, BLE, SPI, I2C</p>
+    <p><strong>Processes:</strong> Device Drivers, Kernel Components, Root-Cause Analysis, TDD, Code Review, Bring-up</p>
+
+    <h3>PROFESSIONAL EXPERIENCE</h3>
+    <div class="experience">
+        <table>
+            <tr><th>RETYM, INC</th><td>Embedded Software Engineer (MTS)</td><td>Jun 2025 – Oct 2025</td></tr>
+            <tr><th>AMD</th><td>Linux Software Development Engineer - Specialized</td><td>Nov 2024 – Feb 2025</td></tr>
+            <tr><th>OCTAVO SYSTEMS</th><td>Systems & Applications Engineer</td><td>Jun 2023 – Apr 2024</td></tr>
+            <tr><th>JMA WIRELESS</th><td>Sr. Firmware Engineer</td><td>Oct 2022 – Mar 2023</td></tr>
+            <tr><th>PLANTRONICS, INC (POLY)</th><td>Sr. Software Development Engineer</td><td>Aug 2020 – Oct 2022</td></tr>
+            <tr><th>CIRRUS LOGIC, INC</th><td>Embedded ARM Firmware Engineer</td><td>Nov 2016 – Aug 2019</td></tr>
+            <tr><th>INDEPENDENT CONTRACT</th><td>Consultant/Contractor</td><td>Jan 2016 – Nov 2016</td></tr>
+            <tr><th>POLYCOM, INC.</th><td>Senior Systems Software Engineer</td><td>Nov 2011 – Jan 2016</td></tr>
+            <tr><th>MCCI CORPORATION</th><td>Software Test Engineer</td><td>Mar 2008 – Nov 2011</td></tr>
+        </table>
+    </div>
+
+    <h3>KEY ARCHITECTURAL & LEADERSHIP ACHIEVEMENTS</h3>
+    <ul>
+        <li><strong>Principal/Architectural Leadership:</strong> Directed strategy for <strong>two distinct product lines</strong> on two separate occasions, leading the M4 migration at Polycom that achieved annual cost savings estimated in the <strong>hundreds of thousands of dollars</strong>.</li>
+        <li><strong>New Product Enablement (Semiconductor):</strong> Led chip bring-up and firmware optimization for new silicon, enabling the launch of a new optical networking DSP chip targeted at increasing <strong>AI data-center efficiency</strong>.</li>
+        <li><strong>Program & Revenue Turnaround:</strong> Revived a struggling New Radio program, resulting in the <strong>on-time product launch</strong> for deployment in critical infrastructure, including the <strong>Milan Metro station</strong>.</li>
+        <li><strong>Team Leadership:</strong> Led a team of <strong>4+ software engineers</strong> in the successful launch of the Centro product, driving <strong>millions in initial revenue</strong>.</li>
+        <li><strong>Quality and Process:</strong> Spearheaded a quality initiative that achieved a <strong>2x increase in code test coverage</strong> and significantly reduced time spent on log analysis for debugging.</li>
     </ul>
 
-    <h2>PROFESSIONAL EXPERIENCE</h2>
-    
-    <div class="job">
-        <div class="job-details">
-            <h3>RETYM, INC | Austin, TX</h3>
-            <span class="company-dates">Jun 2025-Oct 2025</span>
-        </div>
-        <span class="job-title">Embedded Software Engineer (MTS)</span>
-        <ul>
-            <li>Developed tools and applications using C, Python, and Bash for interfacing with a custom optical networking DSP targeting high-bandwidth AI data-center connectivity applications.</li>
-            <li>Utilized version control system (Git) effectively to manage source code repositories across multiple branches simultaneously.</li>
-            <li>Updated and extended a Windows DLL interface to the SDK written in C; championed a proof-of-concept Python Ctypes interface to the DLL for testing the SDK.</li>
-        </ul>
-    </div>
+    <h3>EDUCATION</h3>
+    <p><strong>University Of Texas @ Austin:</strong> Master of Science (ECE) - Software Engineering | 2013</p>
+    <p><strong>State University of New York @ Geneseo:</strong> Bachelor of Arts - Philosophy | 2005</p>
 
-    <div class="job">
-        <div class="job-details">
-            <h3>AMD | Austin, TX</h3>
-            <span class="company-dates">Nov 2024-Feb 2025</span>
-        </div>
-        <span class="job-title">Linux Software Development Engineer - Specialized</span>
-        <ul>
-            <li>Developed Linux tools in C++ and Python for monitoring and managing AMD GPU performance in data center AI applications.</li>
-            <li>Implemented robust solutions for bare metal and containerized RHEL and Ubuntu server-grade deployments.</li>
-            <li>Collaborated with cross-functional teams to optimize AMD GPU performance, leading to <strong>enhanced data center efficiency</strong>.</li>
-        </ul>
-    </div>
+</section>
 
-    <div class="job">
-        <div class="job-details">
-            <h3>OCTAVO SYSTEMS | Austin, TX</h3>
-            <span class="company-dates">Jun 2023-Apr 2024</span>
-        </div>
-        <span class="job-title">Systems & Applications Engineer</span>
-        <ul>
-            <li><strong>Drove platform modernization</strong> by upgrading the Yocto Linux meta-layer to the 'kirkstone' revision for the OSD32MP1-RED board.</li>
-            <li>Developed a Python application to automate real-time component price gathering from distributors, <strong>eliminating countless hours of manual procurement time</strong>.</li>
-            <li><strong>Successfully launched</strong> the new OSDZU3 SiP product line by extensively reviewing Marketing Documentation & Technical Collateral.</li>
-        </ul>
-    </div>
-
-    <div class="job">
-        <div class="job-details">
-            <h3>JMA WIRELESS | Austin, TX</h3>
-            <span class="company-dates">Oct 2022-Mar 2023</span>
-        </div>
-        <span class="job-title">Sr. Firmware Engineer</span>
-        <ul>
-            <li><strong>Led critical debugging efforts</strong> for 5G SW-defined radios, ensuring timely product launch and meeting customer satisfaction goals (Linux / C).</li>
-            <li><strong>Revived a struggling New Radio program</strong> by assisting with feature implementation, improving testing, and certification (Linux / RTOS / C).</li>
-        </ul>
-    </div>
-
-    <div class="job">
-        <div class="job-details">
-            <h3>PLANTRONICS, INC (POLY) | Austin, TX</h3>
-            <span class="company-dates">Aug 2020-Oct 2022</span>
-        </div>
-        <span class="job-title">Sr. Software Development Engineer</span>
-        <ul>
-            <li>Developed and documented production-ready firmware for Android-based USB video conferencing cameras (C, Linux, USB, Android).</li>
-            <li><strong>Resurrected and revitalized a legacy log analysis tool</strong>, resulting in a <strong>significant reduction in time spent on log analysis</strong> for debugging (C++ / Visual Studio).</li>
-        </ul>
-    </div>
-
-    <div class="job">
-        <div class="job-details">
-            <h3>CIRRUS LOGIC, INC | Austin, TX</h3>
-            <span class="company-dates">Nov 2016-Aug 2019</span>
-        </div>
-        <span class="job-title">Embedded ARM Firmware Engineer</span>
-        <ul>
-            <li><strong>Delivered power and latency optimized firmware</strong> that consistently surpassed customer requirements.</li>
-            <li>Developed FW components and standards-compliant drivers (SPI, I2C, USB, BLE, CMSIS) contributing to the successful launch of a number of strategic test chips (C / Bare-metal / ARM / RTOS).</li>
-        </ul>
-    </div>
-
-    <div class="job">
-        <div class="job-details">
-            <h3>POLYCOM, INC. | Austin, TX</h3>
-            <span class="company-dates">Nov 2011-Jan 2016</span>
-        </div>
-        <span class="job-title">Senior Systems Software Engineer</span>
-        <ul>
-            <li><strong>Led the successful migration</strong> of the ARM Cortex M3 codebase to support the advanced Cortex M4 processor, resulting in <strong>performance improvements and significant cost savings</strong> per year (C / BSP).</li>
-            <li>Led a team of 4+ software engineers in the successful on-time launch of the Centro product for the company anniversary.</li>
-            <li>Developed fault-tolerant firmware update scheme for programming microcontroller flash, <strong>improving product reliability</strong> (Bare-metal / C).</li>
-            <li>Consistently root-caused complex system issues as part of a tiered triage team under aggressive timelines, ensuring customer satisfaction (Jira / Defect Analysis).</li>
-        </ul>
+<section id="manager-startup">
+    <div class="resume-header">
+        <a href="#toc">Back to Top</a>
+        <h2>2. Managerial Track - STARTUP FOCUS</h2>
     </div>
     
-    <div class="job">
-        <div class="job-details">
-            <h3>MCCI CORPORATION | Austin, TX</h3>
-            <span class="company-dates">Mar 2008-Nov 2011</span>
-        </div>
-        <span class="job-title">Software Test Engineer</span>
-        <ul>
-            <li>Assumed ownership of Wireless USB and USB 3.0 testing effort, driving a test plan that incorporated a variety of host controllers and devices to facilitate the discovery and resolution of compliance issues.</li>
-            <li>Maintained software tool for mining Jira ITS SQL database to produce valuable performance metrics (C/C++).</li>
-            <li>Managed Microsoft Premier Partner Account, coordinating global test effort to ensure interoperability of beta software.</li>
-        </ul>
-    </div>
-    
-    <div class="job">
-        <div class="job-details">
-            <h3>SOUTHERNTIER NEWS COMPANY | Ithaca, NY</h3>
-            <span class="company-dates">Jul 2002-Jul 2007</span>
-        </div>
-        <span class="job-title">Clerk (Manager in Training)</span>
-        <ul>
-            <li><strong>Demonstrated strong work ethic and trustworthiness</strong> by routinely handling, reporting, and depositing thousands of dollars of cash daily, and being solely responsible for opening, running, and closing the store.</li>
-            <li>Exercised <strong>management and leadership responsibility</strong> by training and supervising subordinate employees and reporting directly to the Director of Operations.</li>
-            <li><strong>Implemented a Video Surveillance System</strong> that successfully identified covert cases of theft from long-standing regular customers, protecting company assets.</li>
-        </ul>
-    </div>
-    
-    <h2>FORMAL EDUCATION</h2>
-    <div class="education-item">
-        <h3>University Of Texas @ Austin</h3>
-        <span class="company-dates">Master of Science (ECE) - Software Engineering | 2013</span>
-        <p>Master's Report: Android / Java / SQL / R (<a href="http://hdl.handle.net/2152/22713" target="_blank">The Smartphone as a Data Collection Device</a>)</p>
-    </div>
-    <div class="education-item">
-        <h3>State University of New York @ Geneseo</h3>
-        <span class="company-dates">Bachelor of Arts - Philosophy | 2005</span>
+    <h3>GREG SCAFFIDI</h3>
+    <div class="contact-info">
+        (512) 766-3736 | sgscaffidi3@gmail.com | Austin, TX | linkedin.com/in/sgscaffidi3
     </div>
 
-</div>
+    <h3>EXECUTIVE SUMMARY – ENGINEERING MANAGER (STARTUP)</h3>
+    <div class="summary-box">
+    <strong>Hands-On Engineering Leader</strong> with 20+ years in embedded systems, specializing in building high-velocity teams and agile processes for complex silicon and infrastructure products (DSP, FPGAs, Embedded Linux/Yocto). Proven ability to drive rapid product turnarounds, enable zero-to-one product launches, and translate deep technical expertise into clear execution plans for teams of <strong>5-8 engineers</strong>. Core focus on maximizing team output, process streamlining, and delivering high-value products in demanding, high-growth environments.
+    </div>
+
+    <h3>TECHNICAL CORE</h3>
+    <p>C, Python, Embedded Linux, Yocto, RTOS, Bare-Metal, ARM Cortex (M0-A75), DSP, FPGA-Firmware Integration, Chip Bring-up, TDD, CI/CD Implementation.</p>
+
+    <h3>KEY LEADERSHIP AND BUSINESS IMPACT</h3>
+    <ul>
+        <li><strong>Program Turnaround & Launch:</strong> Revived a struggling New Radio program (JMA Wireless), leading to the <strong>on-time product launch</strong> and successful deployment in critical infrastructure, including the <strong>Milan Metro station</strong>.</li>
+        <li><strong>Rapid Product Enablement:</strong> Directed firmware strategy and technical integration across <strong>two distinct product lines</strong> on two separate occasions, ensuring alignment with aggressive market entry goals.</li>
+        <li><strong>Team Leadership (Hands-On):</strong> Led and mentored teams of <strong>4 to 8 software engineers</strong> (Polycom, JMA), focusing on high-velocity Extreme Programming and Git best practices to maximize output.</li>
+        <li><strong>Revenue Driving Product Launch:</strong> Led a 4+ engineer team in the successful launch of the Centro product, <strong>driving millions in initial revenue</strong> and strengthening the company's market position.</li>
+        <li><strong>Quality as Velocity:</strong> Spearheaded a critical quality initiative that achieved a <strong>2x increase in code test coverage</strong>, directly supporting rapid development cycles and reducing technical debt in high-volume products.</li>
+        <li><strong>Cross-Functional Delivery:</strong> Drove critical solutions by actively managing dependencies and communication across <strong>Hardware/ASIC Design, Product Management, and Manufacturing</strong> to ensure efficient first silicon bring-up and time-to-market.</li>
+    </ul>
+
+    <h3>PROFESSIONAL EXPERIENCE</h3>
+    <div class="experience">
+        <table>
+            <tr><th>RETYM, INC</th><td>Embedded Software Engineer (MTS)</td><td>Jun 2025 – Oct 2025</td></tr>
+            <tr><th>AMD</th><td>Linux Software Development Engineer - Specialized</td><td>Nov 2024 – Feb 2025</td></tr>
+            <tr><th>OCTAVO SYSTEMS</th><td>Systems & Applications Engineer</td><td>Jun 2023 – Apr 2024</td></tr>
+            <tr><th>JMA WIRELESS</th><td>Sr. Firmware Engineer / Team Lead</td><td>Oct 2022 – Mar 2023</td></tr>
+            <tr><th>PLANTRONICS, INC (POLY)</th><td>Sr. Software Development Engineer</td><td>Aug 2020 – Oct 2022</td></tr>
+            <tr><th>CIRRUS LOGIC, INC</th><td>Embedded ARM Firmware Engineer</td><td>Nov 2016 – Aug 2019</td></tr>
+            <tr><th>POLYCOM, INC.</th><td>Senior Systems Software Engineer / Team Lead</td><td>Nov 2011 – Jan 2016</td></tr>
+        </table>
+    </div>
+
+    <h3>EDUCATION</h3>
+    <p><strong>University Of Texas @ Austin:</strong> Master of Science (ECE) - Software Engineering | 2013</p>
+
+</section>
+
+<section id="manager-established">
+    <div class="resume-header">
+        <a href="#toc">Back to Top</a>
+        <h2>3. Managerial Track - ESTABLISHED COMPANY FOCUS</h2>
+    </div>
+    
+    <h3>GREG SCAFFIDI, M.S. (ECE)</h3>
+    <div class="contact-info">
+        (512) 766-3736 | sgscaffidi3@gmail.com | Austin, TX | linkedin.com/in/sgscaffidi3
+    </div>
+
+    <h3>EXECUTIVE SUMMARY – ENGINEERING MANAGER (ENTERPRISE)</h3>
+    <div class="summary-box">
+    <strong>Organizational Leader and Technical Manager</strong> with 20+ years of experience governing embedded software development (Linux, RTOS, DSP, ARM). Specialized in managing organizational risks, achieving compliance, and driving multi-product initiatives. Expert in transforming business goals into stable technical roadmaps and leading teams of up to <strong>8 engineers</strong> to deliver high-quality, high-revenue products. Proven success in reducing operating costs and enhancing product reliability across large-scale enterprise deployments.
+    </div>
+
+    <h3>MANAGEMENT CORE COMPETENCIES</h3>
+    <p>Program Recovery, Organizational Risk Management, Process Governance, Cross-Functional Alignment (Product, Hardware, Manufacturing, Sales), Performance Management, Budget & Cost Reduction.</p>
+
+    <h3>STRATEGIC LEADERSHIP AND BUSINESS RESULTS</h3>
+    <ul>
+        <li><strong>Financial & Cost Reduction Strategy:</strong> Led the strategic migration of the ARM Cortex M3 codebase to the M4 processor (Polycom), achieving annual operating cost savings estimated in the <strong>hundreds of thousands of dollars</strong> by enabling optimized component selection.</li>
+        <li><strong>Complex Program Delivery:</strong> Managed and recovered a struggling New Radio program (JMA), driving organizational alignment to secure the <strong>on-time launch</strong> of the product for deployment in major international infrastructure projects (e.g., <strong>Milan Metro station</strong>).</li>
+        <li><strong>Team & Delivery Oversight:</strong> Served as Team Lead, managing the delivery timeline and technical dependencies for a team of <strong>4-8 software engineers</strong>, including the successful, revenue-driving launch of the Centro product.</li>
+        <li><strong>Process & Quality Governance:</strong> Implemented a new organizational unit testing standard that achieved a <strong>2x increase in code test coverage</strong>, significantly reducing long-term technical debt and supporting enterprise-grade stability.</li>
+        <li><strong>Stakeholder Alignment:</strong> Authored and analyzed implicit and explicit stakeholder requirements, ensuring technical designs met product, sales, and manufacturing criteria across <strong>two distinct product lines</strong>.</li>
+        <li><strong>Post-Launch Reliability:</strong> Led tiered triage teams to root-cause complex system issues under aggressive timelines (Polycom), demonstrating expert capability in managing product reliability and ensuring critical customer satisfaction goals were met.</li>
+    </ul>
+
+    <h3>PROFESSIONAL EXPERIENCE (MANAGERIAL FOCUS)</h3>
+    <div class="experience">
+        <table>
+            <tr><th>JMA WIRELESS</th><td>Sr. Firmware Engineer / Program Recovery Lead</td><td>Oct 2022 – Mar 2023</td></tr>
+            <tr><th>PLANTRONICS, INC (POLY)</th><td>Sr. Software Development Engineer / Triage Lead</td><td>Aug 2020 – Oct 2022</td></tr>
+            <tr><th>CIRRUS LOGIC, INC</th><td>Embedded ARM Firmware Engineer</td><td>Nov 2016 – Aug 2019</td></tr>
+            <tr><th>POLYCOM, INC.</th><td>Senior Systems Software Engineer / Team Lead</td><td>Nov 2011 – Jan 2016</td></tr>
+        </table>
+    </div>
+
+    <h3>EDUCATION</h3>
+    <p><strong>University Of Texas @ Austin:</strong> Master of Science (ECE) - Software Engineering | 2013</p>
+
+</section>
+
+<section id="architect-startup">
+    <div class="resume-header">
+        <a href="#toc">Back to Top</a>
+        <h2>4. Architect Track - STARTUP FOCUS</h2>
+    </div>
+    
+    <h3>GREG SCAFFIDI, M.S. (ECE)</h3>
+    <div class="contact-info">
+        (512) 766-3736 | sgscaffidi3@gmail.com | Austin, TX | linkedin.com/in/sgscaffidi3
+    </div>
+
+    <h3>TECHNICAL ARCHITECT SUMMARY – SEMICONDUCTOR & INFRASTRUCTURE</h3>
+    <div class="summary-box">
+    <strong>Embedded Software Architect (20+ years)</strong> focused on driving <em>zero-to-one</em> product development and rapid silicon enablement in the semiconductor and high-performance infrastructure domains (DSP, FPGA, Embedded Linux/Yocto). Expert in architecting high-performance, low-latency firmware and navigating complex PS/PL boundaries. Proven ability to translate deep technical insight into foundational code, enabling multi-million dollar product launches under aggressive startup timelines.
+    </div>
+
+    <h3>ARCHITECTURAL & SEMICONDUCTOR LEADERSHIP</h3>
+    <ul>
+        <li><strong>New Silicon Enablement:</strong> Led <strong>First Silicon Bring-up</strong> and critical firmware optimization for new optical networking DSP chips, enabling the product launch targeted at increasing <strong>AI data-center efficiency</strong>.</li>
+        <li><strong>Architectural Ownership:</strong> Directed technical strategy and complex firmware development across <strong>two distinct product lines</strong> on two separate occasions (Polycom, Octavo), managing long-term architectural health.</li>
+        <li><strong>Performance Optimization (Bare-Metal):</strong> Delivered firmware optimizations that improved system latency and power consumption by <strong>~10%</strong> for strategic audio chips (Cirrus Logic), consistently surpassing stringent customer requirements.</li>
+        <li><strong>Rapid Prototyping & SDK Development:</strong> Championed a Python Ctypes interface proof-of-concept and extended a Windows DLL interface to accelerate SDK testing and development for a new DSP product line (RETYM).</li>
+        <li><strong>System Migration & Cost Trade-offs:</strong> Architected and led the successful migration of the ARM Cortex M3 codebase to the M4 processor, resulting in core <strong>performance improvements</strong> and annual cost savings in the <strong>hundreds of thousands of dollars</strong>.</li>
+        <li><strong>Embedded Linux & Platform Modernization:</strong> Drove platform modernization by upgrading the 'meta-octavo' Yocto Linux meta-layer to the 'kirkstone' revision, ensuring long-term maintainability and feature enablement.</li>
+    </ul>
+
+    <h3>TECHNICAL SKILLS</h3>
+    <p>C, Python, Embedded Linux (Yocto), RTOS, Bare-Metal, ARM Cortex (M0-A75), DSP, FPGA/PS-PL Integration, Chip Bring-up, USB, SPI, I2C, BLE, Kernel Components, Device Drivers, Root-Cause Analysis.</p>
+
+    <h3>PROFESSIONAL EXPERIENCE (ARCHITECTURAL FOCUS)</h3>
+    <div class="experience">
+        <table>
+            <tr><th>RETYM, INC</th><td>Embedded Software Engineer (MTS)</td><td>Jun 2025 – Oct 2025</td></tr>
+            <tr><th>OCTAVO SYSTEMS</th><td>Systems & Applications Engineer</td><td>Jun 2023 – Apr 2024</td></tr>
+            <tr><th>JMA WIRELESS</th><td>Sr. Firmware Engineer</td><td>Oct 2022 – Mar 2023</td></tr>
+            <tr><th>CIRRUS LOGIC, INC</th><td>Embedded ARM Firmware Engineer</td><td>Nov 2016 – Aug 2019</td></tr>
+            <tr><th>POLYCOM, INC.</th><td>Senior Systems Software Engineer</td><td>Nov 2011 – Jan 2016</td></tr>
+        </table>
+    </div>
+
+    <h3>EDUCATION</h3>
+    <p><strong>University Of Texas @ Austin:</strong> Master of Science (ECE) - Software Engineering | 2013</p>
+
+</section>
+
+<section id="architect-established">
+    <div class="resume-header">
+        <a href="#toc">Back to Top</a>
+        <h2>5. Architect Track - ESTABLISHED COMPANY FOCUS</h2>
+    </div>
+    
+    <h3>GREG SCAFFIDI, M.S. (ECE)</h3>
+    <div class="contact-info">
+        (512) 766-3736 | sgscaffidi3@gmail.com | Austin, TX | linkedin.com/in/sgscaffidi3
+    </div>
+
+    <h3>TECHNICAL ARCHITECT SUMMARY – SYSTEM GOVERNANCE & STANDARDS</h3>
+    <div class="summary-box">
+    <strong>Senior-Level Software Architect (20+ years)</strong> specializing in the technical governance of multi-product embedded systems (High-Performance Computing, DSP, ARM, Linux/Yocto). Expert at defining robust architectural standards, managing risk within large codebases, and driving cross-functional alignment across <strong>Hardware/ASIC Design, Manufacturing, and Product</strong> teams. Trusted leader in optimizing system performance and ensuring long-term technical debt reduction across enterprise product portfolios.
+    </div>
+
+    <h3>ARCHITECTURAL GOVERNANCE AND STANDARDS</h3>
+    <ul>
+        <li><strong>Multi-Product Line Governance:</strong> Directed technical architecture and firmware strategy across <strong>two distinct product lines</strong> on two separate occasions, ensuring component reuse and standardized interfacing (Polycom, Octavo).</li>
+        <li><strong>Financial Architectural Decision:</strong> Architected and led a major platform migration (ARM Cortex M3 to M4) that resulted in core performance improvements and achieved annual component cost savings estimated in the <strong>hundreds of thousands of dollars</strong>.</li>
+        <li><strong>Performance Standards:</strong> Delivered low-latency and power-optimized bare-metal firmware solutions that improved key performance metrics by <strong>~10%</strong> (Cirrus Logic), consistently meeting or exceeding stringent enterprise customer specifications.</li>
+        <li><strong>Quality and Reliability:</strong> Established new unit testing standards (TDD principles) that drove a <strong>2x increase in code test coverage</strong>, drastically reducing long-term maintenance costs and enhancing product reliability (Polycom).</li>
+        <li><strong>Cross-Domain Integration:</strong> Successfully managed and mitigated integration risk for the <strong>New Radio program</strong> (JMA), leading the technical effort to achieve <strong>on-time launch</strong> in critical, high-profile infrastructure (Milan Metro).</li>
+        <li><strong>Tooling and Process Audit:</strong> Resurrected and revitalized a legacy log analysis tool (C++/Visual Studio), reducing time spent on complex log analysis for debugging by a <strong>significant margin</strong> across existing and new product platforms.</li>
+    </ul>
+
+    <h3>CORE TECHNICAL STACK</h3>
+    <p>Embedded Linux (Yocto), RTOS, ARM Cortex, DSP, USB Gadget Driver Implementation, Kernel Components, Root-Cause Analysis, PS/PL Boundaries, C/C++, Python.</p>
+
+    <h3>PROFESSIONAL EXPERIENCE (ENTERPRISE FOCUS)</h3>
+    <div class="experience">
+        <table>
+            <tr><th>PLANTRONICS, INC (POLY)</th><td>Sr. Software Development Engineer</td><td>Aug 2020 – Oct 2022</td></tr>
+            <tr><th>CIRRUS LOGIC, INC</th><td>Embedded ARM Firmware Engineer</td><td>Nov 2016 – Aug 2019</td></tr>
+            <tr><th>POLYCOM, INC.</th><td>Senior Systems Software Engineer</td><td>Nov 2011 – Jan 2016</td></tr>
+            <tr><th>MCCI CORPORATION</th><td>Software Test Engineer</td><td>Mar 2008 – Nov 2011</td></tr>
+        </table>
+    </div>
+
+    <h3>EDUCATION</h3>
+    <p><strong>University Of Texas @ Austin:</strong> Master of Science (ECE) - Software Engineering | 2013</p>
+
+</section>
+
+<section id="principal-startup">
+    <div class="resume-header">
+        <a href="#toc">Back to Top</a>
+        <h2>6. Principal/Distinguished Track - STARTUP FOCUS</h2>
+    </div>
+    
+    <h3>GREG SCAFFIDI, M.S. (ECE)</h3>
+    <div class="contact-info">
+        (512) 766-3736 | sgscaffidi3@gmail.com | Austin, TX | linkedin.com/in/sgscaffidi3
+    </div>
+
+    <h3>PRINCIPAL ENGINEER SUMMARY – STRATEGY & TECHNICAL DUE DILIGENCE</h3>
+    <div class="summary-box">
+    <strong>Principal Embedded Engineer (20+ years)</strong> and high-impact technical leader specializing in setting the <em>firmware strategy</em> for new product organizations in the semiconductor and high-performance sectors. Expert at eliminating technical blockers, driving <strong>First Silicon Bring-up</strong>, and leading critical, cross-functional teams (5-8 engineers) to achieve market advantage. Focused on high-risk technical problem-solving that directly enables new revenue streams and defines long-term product direction.
+    </div>
+
+    <h3>STRATEGIC IMPACT AND TECHNICAL LEADERSHIP</h3>
+    <ul>
+        <li><strong>Foundational Product Enablement:</strong> Drove the technical capability to release a new optical networking DSP chip targeted at increasing <strong>AI data-center efficiency</strong> by leading chip bring-up and pre-silicon firmware optimization.</li>
+        <li><strong>Program Turnaround & Revenue:</strong> Revived a struggling, mission-critical <strong>New Radio program</strong> (JMA), transforming it into a successful, on-time launch for international deployment (e.g., <strong>Milan Metro station</strong>).</li>
+        <li><strong>System Architecture & Financial Trade-offs:</strong> Led the ARM Cortex M4 migration, a major architectural decision that improved core performance and generated annual cost savings estimated in the <strong>hundreds of thousands of dollars</strong>.</li>
+        <li><strong>Organizational Scaling:</strong> Established core development practices, including a new unit testing standard that achieved a <strong>2x increase in code test coverage</strong>, ensuring stability as the codebase scaled rapidly.</li>
+        <li><strong>Full-Stack Embedded Leadership:</strong> Drove complex solutions across the entire stack, from low-level bare-metal optimization (improving performance by <strong>~10%</strong>) to high-level Python application development for automation and SDK testing (AMD, RETYM).</li>
+        <li><strong>Mentorship and Team Development:</strong> Acted as a senior mentor in Extreme Programming environments, guiding new graduates and engineers on best practices (C, Linux, RTOS, Git).</li>
+    </ul>
+
+    <h3>CORE TECHNICAL MASTERY</h3>
+    <p>Embedded Linux (Yocto), RTOS, Bare-Metal, DSP, ARM Cortex (M0-A75), FPGA-Firmware Integration, Kernel Development, High-Bandwidth Protocols (USB, Networking), Root-Cause Analysis.</p>
+
+    <h3>PROFESSIONAL EXPERIENCE (PRINCIPAL FOCUS)</h3>
+    <div class="experience">
+        <table>
+            <tr><th>RETYM, INC</th><td>Embedded Software Engineer (MTS)</td><td>Jun 2025 – Oct 2025</td></tr>
+            <tr><th>AMD</th><td>Linux Software Development Engineer - Specialized</td><td>Nov 2024 – Feb 2025</td></tr>
+            <tr><th>OCTAVO SYSTEMS</th><td>Systems & Applications Engineer</td><td>Jun 2023 – Apr 2024</td></tr>
+            <tr><th>JMA WIRELESS</th><td>Sr. Firmware Engineer</td><td>Oct 2022 – Mar 2023</td></tr>
+            <tr><th>CIRRUS LOGIC, INC</th><td>Embedded ARM Firmware Engineer</td><td>Nov 2016 – Aug 2019</td></tr>
+            <tr><th>POLYCOM, INC.</th><td>Senior Systems Software Engineer</td><td>Nov 2011 – Jan 2016</td></tr>
+        </table>
+    </div>
+
+    <h3>EDUCATION</h3>
+    <p><strong>University Of Texas @ Austin:</strong> Master of Science (ECE) - Software Engineering | 2013</p>
+
+</section>
+
+<section id="principal-established">
+    <div class="resume-header">
+        <a href="#toc">Back to Top</a>
+        <h2>7. Principal/Distinguished Track - ESTABLISHED COMPANY FOCUS</h2>
+    </div>
+    
+    <h3>GREG SCAFFIDI, M.S. (ECE)</h3>
+    <div class="contact-info">
+        (512) 766-3736 | sgscaffidi3@gmail.com | Austin, TX | linkedin.com/in/sgscaffidi3
+    </div>
+
+    <h3>DISTINGUISHED ENGINEER SUMMARY – TECHNICAL POLICY & GOVERNANCE</h3>
+    <div class="summary-box">
+    <strong>Distinguished/Principal Engineer (20+ years)</strong> focused on technical policy, system governance, and driving large-scale, cost-saving initiatives within complex, established organizations (Semiconductor, Enterprise). Expert in translating deep technical knowledge (DSP, ARM, Linux, FPGA) into clear architectural policies and mentoring senior staff. Proven track record of linking technical strategy to substantial annual cost reductions and enabling compliance in high-value, critical product lines.
+    </div>
+
+    <h3>ORGANIZATIONAL IMPACT AND TECHNICAL POLICY</h3>
+    <ul>
+        <li><strong>Multi-Million Dollar Initiative Leadership:</strong> Led the ARM Cortex M4 migration initiative, a critical organizational decision that drove performance enhancements and delivered sustained annual operating cost savings estimated in the <strong>hundreds of thousands of dollars</strong>.</li>
+        <li><strong>Strategic Product Enablement:</strong> Provided deep technical guidance and platform enablement for a new optical networking DSP chip, ensuring the firmware and validation processes were robust enough for the high-reliability demands of <strong>AI data-center efficiency</strong> products.</li>
+        <li><strong>Program Recovery & Risk Mitigation:</strong> Took ownership of a critical, struggling <strong>New Radio program</strong> (JMA), leading the technical and team alignment necessary to meet regulatory requirements and secure the <strong>on-time launch</strong> into major international infrastructure (Milan Metro).</li>
+        <li><strong>Quality Policy & Standards:</strong> Authored and implemented a unified TDD/unit testing policy across two major product lines, resulting in a <strong>2x increase in code test coverage</strong> and a significant reduction in long-term maintenance costs and defects.</li>
+        <li><strong>Inter-Organizational Alignment:</strong> Drove solutions by providing technical authority and collaborating equally with <strong>Product Management, Hardware/ASIC Design, Manufacturing, and Customer Support</strong> to resolve high-stakes issues and align product roadmaps.</li>
+        <li><strong>Performance Governance:</strong> Set and maintained stringent low-latency and power-optimization standards for bare-metal firmware, delivering performance improvements of <strong>~10%</strong> in key product areas (Cirrus Logic).</li>
+    </ul>
+
+    <h3>CORE TECHNICAL MASTERY</h3>
+    <p>Embedded Linux (Yocto), RTOS, Bare-Metal, DSP, ARM Cortex (M0-A75), FPGA/PS-PL Integration, Kernel Development, Root-Cause Analysis, Fault-Tolerant Firmware Update Schemes, C/C++, Python.</p>
+
+    <h3>PROFESSIONAL EXPERIENCE (DISTINGUISHED FOCUS)</h3>
+    <div class="experience">
+        <table>
+            <tr><th>PLANTRONICS, INC (POLY)</th><td>Sr. Software Development Engineer</td><td>Aug 2020 – Oct 2022</td></tr>
+            <tr><th>CIRRUS LOGIC, INC</th><td>Embedded ARM Firmware Engineer</td><td>Nov 2016 – Aug 2019</td></tr>
+            <tr><th>POLYCOM, INC.</th><td>Senior Systems Software Engineer</td><td>Nov 2011 – Jan 2016</td></tr>
+            <tr><th>MCCI CORPORATION</th><td>Software Test Engineer</td><td>Mar 2008 – Nov 2011</td></tr>
+        </table>
+    </div>
+
+    <h3>EDUCATION</h3>
+    <p><strong>University Of Texas @ Austin:</strong> Master of Science (ECE) - Software Engineering | 2013</p>
+
+</section>
 
 </body>
 </html>
